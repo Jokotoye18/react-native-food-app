@@ -18,7 +18,7 @@ const OrderItem = ({item}) => {
             <TouchableOpacity style={styles.IconContainer}>
                <Icon
                style={styles.Icon}
-               size={15}
+               size={18}
                name="trash"
                />
             </TouchableOpacity>
@@ -42,10 +42,10 @@ const styles = StyleSheet.create({
         height: 60,
         resizeMode: "cover",
         borderRadius: 10,
-        flexBasis: "15%"
+        flexBasis: "20%"
     },
     ItemInfo: {
-        flexBasis: "50%"
+        flexBasis: "44%",
     },
     ItemName: {
         fontSize: 20,
@@ -65,8 +65,8 @@ const styles = StyleSheet.create({
     },
     IconContainer: {
         backgroundColor: '#F9E1DA',
-        height: 30,
-        width: 30,
+        height: 40,
+        width: 40,
         borderRadius: 50,
         justifyContent: 'center',
         alignItems: 'center'
